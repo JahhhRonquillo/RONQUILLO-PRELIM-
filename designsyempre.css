@@ -1,0 +1,40 @@
+*
+  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+  }
+h2 {
+    position: absolute;
+    left: 50px;
+    top: 500px;
+  }
+body {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(34, 185, 223);
+}
+.slider {
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+}
+.images {
+    display: flex;
+    width: 100%;
+}
+.images img {
+    height: 400px;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+.images input {
+    display: none;
+}
